@@ -2,6 +2,22 @@
 
 ![DataFlow.ai Logo](https://via.placeholder.com/200x50/667eea/ffffff?text=DataFlow.ai)
 
+## 🔗 Live Preview Links
+
+### 🌐 View the Website:
+- **Custom Domain**: [https://aisafesafe.me](https://aisafesafe.me) *(After merging to main)*
+- **GitHub Pages**: [https://whitewolf8888.github.io](https://whitewolf8888.github.io) *(After merging to main)*
+
+### 📋 Current Status:
+- ✅ Landing page is ready on branch `copilot/create-idp-saas-blueprint`
+- ⏳ Merge this PR to `main` branch to deploy live
+- 🚀 GitHub Pages will automatically deploy after merge
+
+### 📂 Repository:
+- **GitHub**: [https://github.com/whitewolf8888/whitewolf8888.github.io](https://github.com/whitewolf8888/whitewolf8888.github.io)
+
+---
+
 ## 🚀 About DataFlow.ai
 
 DataFlow.ai is an Intelligent Document Processing (IDP) SaaS platform that transforms invoices, receipts, and forms into structured data instantly using AI-powered OCR technology.
@@ -87,9 +103,28 @@ DataFlow.ai is an Intelligent Document Processing (IDP) SaaS platform that trans
 - **Phone**: +91 123-456-7890
 - **Location**: Gurgaon, Haryana, India
 
-## 🌐 Website
+## 🌐 Website & Deployment
 
-Visit us at: [aisafesafe.me](https://aisafesafe.me)
+**Production URL**: [https://aisafesafe.me](https://aisafesafe.me)  
+**GitHub Pages**: [https://whitewolf8888.github.io](https://whitewolf8888.github.io)
+
+### How to Deploy:
+1. Review and approve this Pull Request
+2. Merge to `main` branch
+3. GitHub Pages will automatically build and deploy
+4. Site will be live at both URLs within 1-2 minutes
+
+### Local Testing:
+```bash
+# Clone the repository
+git clone https://github.com/whitewolf8888/whitewolf8888.github.io.git
+cd whitewolf8888.github.io
+
+# Serve locally
+python3 -m http.server 8000
+
+# Visit http://localhost:8000 in your browser
+```
 
 ## 📄 License
 
